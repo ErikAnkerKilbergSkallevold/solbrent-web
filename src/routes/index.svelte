@@ -21,66 +21,77 @@ import { loop_guard } from "svelte/internal";
             <img class="relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg" src="src\assets\applogo.png" alt="todo">
         
             <div class="sidebar-icon group group">
-                <img class="sidebar-icon" src="src\assets\icons\ac_plug-0.png" alt="todo">
+                <a href="https://github.com/ErikAnkerKilbergSkallevold">
+                    <img class="sidebar-icon" src="src\assets\images\gitMe.png" alt="Github Logo with my face">
+                </a>
                 <div class="sidebar-icon-tooltip group-hover:scale-100">
-                    <p>Tooltip!</p>
+                    <p>My GitHub!</p>
                 </div>
             </div>
         
             <div class="sidebar-icon group group">
-                <img class="sidebar-icon" src="src\assets\icons\calendar-0.png" alt="todo">
+                <a href="https://github.com/ErikAnkerKilbergSkallevold/Solbrent">
+                    <img class="sidebar-icon" src="src\assets\images\gitApp.png" alt="Github Logo with the app logo">
+                </a>
                 <div class="sidebar-icon-tooltip group-hover:scale-100">
-                    <p>Tooltip!</p>
+                    <p>The apps GitHub!</p>
                 </div>
             </div>
             
             <div class="sidebar-icon group group">
-                <img class="sidebar-icon" src="src\assets\icons\battery.png" alt="todo">
+                <a href="https://github.com/ErikAnkerKilbergSkallevold/solbrent-web">
+                    <img class="sidebar-icon" src="src\assets\images\gitWeb.png" alt="Github Logo with the internet logo">
+                </a>
                 <div class="sidebar-icon-tooltip group-hover:scale-100">
-                    <p>Tooltip!</p>
+                    <p>This webpages GitHub!</p>
                 </div>
             </div>
             
             <div class="sidebar-icon group group">
-                <img class="sidebar-icon" src="src\assets\icons\briefcase-0.png" alt="todo">
+                <a href="src\assets\downloads\solbrent.apk" download="Solbrent.apk" title="Download Solbrent Link">
+                    <img class="sidebar-icon" src="src\assets\images\download_icon.svg" alt="Download button">
+                </a>
                 <div class="sidebar-icon-tooltip group-hover:scale-100">
-                    <p>Tooltip!</p>
+                    <p>Download app!</p>
                 </div>
             </div>
         </div>
 
-        <div class="intro -z-10">
-            <h1 class="text-center font-thin text-9xl text-gray-900">Solbrent</h1>
+        <div class="intro max-w-full ml-6 -z-10">
+            <h1 class="text-center font-thin md:text-9xl ml-6 text-7xl text-gray-900">Solbrent</h1>
             <!-- svelte-ignore a11y-media-has-caption -->
             <video src="src\assets\Video\SolbrentWebVideo_AME\appIntro_FHD_16-9.mp4"></video>
         </div>      
 
         <section class="mt-12">
             <div class="container reveal">
-                <h1 class="text-3xl text-gray-900 text-center font-bold pt-0 ml-12 mt-0">Aldri bli <strong class="bg-gradient-to-l">solbrent</strong> igjen</h1>
+                <h1 class="text-3xl text-gray-900 text-center pt-0 ml-12 mt-0">Aldri bli <strong class="bg-gradient-to-l">solbrent</strong> igjen</h1>
             </div>
         </section>
 
         <section class="mt-24">
             <div class="container reveal">
-                <h1 class="text-3xl text-gray-900 text-center font-bold pt-0 ml-12 mt-0">Last ned <strong class="bg-gradient-to-l">solbrent</strong> og få kontroll på solen</h1>
+                <h1 class="text-3xl text-gray-900 text-center pt-0 ml-12 mt-0">Last ned <strong class="bg-gradient-to-l">solbrent</strong> og få kontroll på solen</h1>
             </div>
         </section>
 
-    
-        <div class="bg-indigo-100">    
+        <!-- Popup 1 -->
+        <div>    
             <div class="bg-white bg-opacity-100">
-                <section class="mt-24">
+                <section class="mt-24 wrapper ml-12">
                     <div class="container reveal">
-                        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                        <div class="sm:w-1/3 sm:mt-24 sm:left lg:left">
+                            <img class="top-12 md:max-w-full justify-center ml-12 md:mx-auto mb-0 bottom-0" src="src\assets\images\phones\homePhone.png" alt="Home page shown on a phone screen">
+                        </div>
+                        <div class="right mt-12 ml-12 mr-6 sm:m-0 sm:p-0 md:mx-auto md:mt-8 lg:mt-36 max-w-fit md:max-w-full bg-white rounded-xl shadow-md overflow-hidden">
                             <div class="md:flex">
                             <div class="md:shrink-0">
-                                <img class="h-48 w-full object-cover md:h-full md:w-48" src="src\assets\Screenshots\Kveld.png" alt="Man looking at item at a store">
+                                <img class="h-44 w-44 m-auto object-cover md:h-full md:w-fit" src="src\assets\images\eyes.png" alt="Eye emoji">
                             </div>
-                            <div class="p-8">
-                                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Case study</div>
-                                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding customers for your new business</a>
-                                <p class="mt-2 text-slate-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+                            <div class="lg:p-8 md:p-2 sm:p-0 w-screen max-w-fit">
+                                <div class="uppercase tracking-wide text-sm text-yellow-500 font-semibold">All in one</div>
+                                <p class="block mt-1 text-lg leading-tight font-medium text-black">Get all the relevant information at a glance</p>
+                                <p class="mt-2 text-slate-500">Don't waste time going through multiple menues and pages. Noone wants to stare at a weather app when they're out having fun. Get all the information you need at a glance.</p>
                             </div>
                             </div>
                         </div>
@@ -89,19 +100,74 @@ import { loop_guard } from "svelte/internal";
             </div>
         </div>
 
-        <div class="bg-yellow-600">
-            <div class="bg-green-900 bg-opacity-100">
-                <section class="mt-24">
+
+        <!-- Popup 2 -->
+        <div>    
+            <div class="bg-white bg-opacity-100">
+                <section class="mt-24 wrapper ml-12">
                     <div class="container reveal">
-                        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                        <div class="sm:w-1/3 sm:mt-24 sm:left lg:left">
+                            <img class="top-12 md:max-w-full justify-center ml-6 md:mx-auto mb-0 bottom-0" src="src\assets\images\phones\detaljPhone.png" alt="Home page shown on a phone screen">
+                        </div>
+                        <div class="right mt-12 ml-12 mr-6 sm:m-0 sm:p-0 md:mx-auto md:mt-8 lg:mt-36 max-w-fit md:max-w-full bg-white rounded-xl shadow-md overflow-hidden">
                             <div class="md:flex">
                             <div class="md:shrink-0">
-                                <img class="h-48 w-full object-cover md:h-full md:w-48" src="src\assets\Screenshots\Kveld.png" alt="Man looking at item at a store">
+                                <img class="h-44 w-44 m-auto object-cover md:h-full md:w-fit" src="src\assets\images\nerd.png" alt="Nerd emoji">
                             </div>
-                            <div class="p-8">
-                                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Case study</div>
-                                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding customers for your new business</a>
-                                <p class="mt-2 text-slate-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+                            <div class="lg:p-8 md:p-2 sm:p-0 w-screen max-w-fit">
+                                <div class="uppercase tracking-wide text-sm text-yellow-500 font-semibold">Detailed</div>
+                                <p class="block mt-1 text-lg leading-tight font-medium text-black">Go for a dive (if you want)</p>
+                                <p class="mt-2 text-slate-500">Want a 24-hour forecast? Tips to avoid sunburn? Get a scale for how much uvi there is? Swipe up on the homescreen and get additional info about the sun.</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div> 
+
+        <!-- Popup 3 -->
+        <div>    
+            <div class="bg-white bg-opacity-100">
+                <section class="mt-24 wrapper ml-12">
+                    <div class="container reveal">
+                        <div class="sm:w-1/3 sm:mt-12 sm:left lg:left">
+                            <img class="top-12 md:max-w-full justify-center ml-6 md:mx-auto mb-0 bottom-0" src="src\assets\images\phones\skinTone.png" alt="Home page shown on a phone screen">
+                        </div>
+                        <div class="right mt-12 ml-12 mr-6 sm:m-0 sm:p-0 md:mx-auto md:mt-8 lg:mt-36 max-w-fit md:max-w-full bg-white rounded-xl shadow-md overflow-hidden">
+                            <div class="md:flex">
+                            <div class="md:shrink-0">
+                                <img class="h-44 w-44 m-auto object-cover md:h-full md:w-fit" src="src\assets\images\hudfargebilde.png" alt="Skin color emojies">
+                            </div>
+                            <div class="lg:p-8 md:p-2 sm:p-0 w-screen max-w-fit">
+                                <div class="uppercase tracking-wide text-sm text-yellow-500 font-semibold">Made for you</div>
+                                <p class="block mt-1 text-lg leading-tight font-medium text-black">Reacts to your skintype</p>
+                                <p class="mt-2 text-slate-500">Different skin types react differently to the sun. Pick your skintype from the Fitzpatrick scale and see how the app reacts.</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div> 
+
+        <!-- Popup 4 -->
+        <div>    
+            <div class="bg-white bg-opacity-100">
+                <section class="mt-24 wrapper ml-12">
+                    <div class="container reveal">
+                        <div class="sm:w-1/3 sm:left lg:left">
+                            <img class="top-12 md:max-w-full justify-center ml-12 md:mx-auto mb-0 bottom-0" src="src\assets\images\phones\timerPhone.png" alt="Home page shown on a phone screen">
+                        </div>
+                        <div class="right mt-12 ml-12 mr-6 sm:m-0 sm:p-0 md:mx-auto md:mt-8 lg:mt-36 max-w-fit md:max-w-full bg-white rounded-xl shadow-md overflow-hidden">
+                            <div class="md:flex">
+                            <div class="md:shrink-0">
+                                <img class="h-44 w-44 m-auto object-cover md:h-full md:w-fit" src="src\assets\images\clock.png" alt="Clock emoji">
+                            </div>
+                            <div class="lg:p-8 md:p-2 sm:p-0 w-screen max-w-fit">
+                                <div class="uppercase tracking-wide text-sm text-yellow-500 font-semibold">Countdown</div>
+                                <p class="block mt-1 text-lg leading-tight font-medium text-black">3...2...1...</p>
+                                <p class="mt-2 text-slate-500">...Apply more sunscreen. Get notified by the app when it's time for more sunscreen. And if you do get burnt it will also give you some advice on what to do.</p>
                             </div>
                             </div>
                         </div>
@@ -109,16 +175,40 @@ import { loop_guard } from "svelte/internal";
                 </section>
             </div>
         </div>
-    </body>  
 
-
-    
-    <footer class="flex fixed bottom-0 mx-auto w-screen h-16 justify-center">
-        <p class="font-medium  text-center">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-    </footer>
-
-
-
+        <!-- Download -->
+        <div>    
+            <div class="gradient lg:ml-48 lg:mb-0 lg:m-24 ml-24 mr-12 bg-opacity-100 rounded-3xl shadow-2xl">
+                <section class="mt-24 wrapper ml-12">
+                    <div class="container reveal">
+                        <div class="sm:w-1/3 sm:left lg:left">
+                            <img class="top-12 md:max-w-full justify-center -ml-6 md:mx-auto mb-0 bottom-0" src="src\assets\applogo.png" alt="Home page shown on a phone screen">
+                        </div>
+                        <div class="right mt-12 mx-auto my-auto sm:m-0 sm:p-0 md:mx-auto md:mt-8 lg:mt-12 lg:mr-12 max-w-fit md:max-w-full bg-green-400 rounded-xl shadow-md overflow-hidden">
+                            <div class="md:flex">
+                            <div class="md:shrink-0">
+                                <a href="src\assets\downloads\solbrent.apk" download="Solbrent.apk" title="Download Solbrent Link">
+                                    <img class="h-44 w-44 object-cover md:h-full md:w-fit bg-white hover:bg-black transition-all ease-in hover:cursor-pointer" src="src\assets\images\android.png" alt="Clickable Android logo download button">
+                                </a>
+                            </div>
+                            <div class="lg:p-8 md:p-2 sm:p-0 w-screen max-w-fit">
+                                <div class="uppercase tracking-wide text-sm text-white font-semibold">Download</div>
+                                <p class="block mt-1 text-lg leading-tight font-medium text-black">Want to try it out?</p>
+                                <p class="mt-2 text-slate-500">By downloading, I here by understand that this app was created as student project and that some information might be wrong. I also understand that there might be security holes and that the app is currently available in Norwegian. No warranty is provided.</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <footer class="text-center">
+            <a href="https://github.com/ErikAnkerKilbergSkallevold/solbrent-web" class="text-gray-900 hover:underline hover:text-blue-600">Made by me!</a>
+            <br>
+            <a href="https://www.freepik.com/free-vector/vector-smartphone-with-blank-white-screen_7588609.htm#&position=8&from_view=author" class="text-gray-900 hover:underline hover:text-blue-600">Phone template provided by upklyak</a>
+        </footer>
+        
     <script>
         function reveal() {
         var reveals = document.querySelectorAll(".reveal");
