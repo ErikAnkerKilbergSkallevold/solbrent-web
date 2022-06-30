@@ -173,10 +173,8 @@
       }
 
       .gradient {
-        background-image: url("../assets/images/gradient.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        background: rgb(32,230,138);
+        background: linear-gradient(135deg, rgba(32,230,138,1) 0%, rgba(170,84,211,1) 50%, rgba(9,9,121,1) 100%);
       }
 }
 
