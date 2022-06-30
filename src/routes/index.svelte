@@ -18,8 +18,9 @@ import { loop_guard } from "svelte/internal";
         
 
         <div class="flex fixed top-0 left-0 h-screen w-16 flex-col bg-gray-900 text-white shadow-lg">
-            <img class="relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg" src="assets\applogo.png" alt="todo">
-        
+            <a href="https://erikankerkilbergskallevold.github.io/index.html">
+                <img class="relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg" src="assets\applogo.png" alt="Button to my homepage">
+             </a>
             <div class="sidebar-icon group group">
                 <a href="https://github.com/ErikAnkerKilbergSkallevold">
                     <img class="sidebar-icon" src="assets\images\gitMe.png" alt="Github Logo with my face">
