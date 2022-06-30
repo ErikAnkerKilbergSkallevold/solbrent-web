@@ -59,7 +59,7 @@
 
     .parallax {
         /* The image used */
-        background-image: url("src/assets/uvslider.png");
+        background-image: url("assets/uvslider.png");
       
         /* Set a specific height */
         min-height: 500px; 
@@ -173,7 +173,7 @@
       }
 
       .gradient {
-        background-image: url("src/assets/images/gradient.png");
+        background-image: url("assets/images/gradient.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

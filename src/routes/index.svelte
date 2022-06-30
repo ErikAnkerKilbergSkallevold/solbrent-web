@@ -18,11 +18,11 @@ import { loop_guard } from "svelte/internal";
         
 
         <div class="flex fixed top-0 left-0 h-screen w-16 flex-col bg-gray-900 text-white shadow-lg">
-            <img class="relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg" src="static\assets\applogo.png" alt="todo">
+            <img class="relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg" src="assets\applogo.png" alt="todo">
         
             <div class="sidebar-icon group group">
                 <a href="https://github.com/ErikAnkerKilbergSkallevold">
-                    <img class="sidebar-icon" src="static\assets\images\gitMe.png" alt="Github Logo with my face">
+                    <img class="sidebar-icon" src="assets\images\gitMe.png" alt="Github Logo with my face">
                 </a>
                 <div class="sidebar-icon-tooltip group-hover:scale-100">
                     <p>My GitHub!</p>
@@ -31,7 +31,7 @@ import { loop_guard } from "svelte/internal";
         
             <div class="sidebar-icon group group">
                 <a href="https://github.com/ErikAnkerKilbergSkallevold/Solbrent">
-                    <img class="sidebar-icon" src="static\assets\images\gitApp.png" alt="Github Logo with the app logo">
+                    <img class="sidebar-icon" src="assets\images\gitApp.png" alt="Github Logo with the app logo">
                 </a>
                 <div class="sidebar-icon-tooltip group-hover:scale-100">
                     <p>The apps GitHub!</p>
@@ -40,7 +40,7 @@ import { loop_guard } from "svelte/internal";
             
             <div class="sidebar-icon group group">
                 <a href="https://github.com/ErikAnkerKilbergSkallevold/solbrent-web">
-                    <img class="sidebar-icon" src="static\assets\images\gitWeb.png" alt="Github Logo with the internet logo">
+                    <img class="sidebar-icon" src="assets\images\gitWeb.png" alt="Github Logo with the internet logo">
                 </a>
                 <div class="sidebar-icon-tooltip group-hover:scale-100">
                     <p>This webpages GitHub!</p>
@@ -48,8 +48,8 @@ import { loop_guard } from "svelte/internal";
             </div>
             
             <div class="sidebar-icon group group">
-                <a href="static\assets\downloads\solbrent.apk" download="Solbrent.apk" title="Download Solbrent Link">
-                    <img class="sidebar-icon" src="static\assets\images\download_icon.svg" alt="Download button">
+                <a href="assets\downloads\solbrent.apk" download="Solbrent.apk" title="Download Solbrent Link">
+                    <img class="sidebar-icon" src="assets\images\download_icon.svg" alt="Download button">
                 </a>
                 <div class="sidebar-icon-tooltip group-hover:scale-100">
                     <p>Download app!</p>
@@ -60,7 +60,7 @@ import { loop_guard } from "svelte/internal";
         <div class="intro max-w-full ml-6 -z-10">
             <h1 class="text-center font-thin md:text-9xl ml-6 text-7xl text-gray-900">Solbrent</h1>
             <!-- svelte-ignore a11y-media-has-caption -->
-            <video src="static\assets\Video\SolbrentWebVideo_AME\appIntro_FHD_16-9.mp4"></video>
+            <video src="assets\Video\SolbrentWebVideo_AME\appIntro_FHD_16-9.mp4"></video>
         </div>      
 
         <section class="mt-12">
@@ -81,12 +81,12 @@ import { loop_guard } from "svelte/internal";
                 <section class="mt-24 wrapper ml-12">
                     <div class="container reveal">
                         <div class="sm:w-1/3 sm:mt-24 sm:left lg:left">
-                            <img class="top-12 md:max-w-full justify-center ml-12 md:mx-auto mb-0 bottom-0" src="static\assets\images\phones\homePhone.png" alt="Home page shown on a phone screen">
+                            <img class="top-12 md:max-w-full justify-center ml-12 md:mx-auto mb-0 bottom-0" src="assets\images\phones\homePhone.png" alt="Home page shown on a phone screen">
                         </div>
                         <div class="right mt-12 ml-12 mr-6 sm:m-0 sm:p-0 md:mx-auto md:mt-8 lg:mt-36 max-w-fit md:max-w-full bg-white rounded-xl shadow-md overflow-hidden">
                             <div class="md:flex">
                             <div class="md:shrink-0">
-                                <img class="h-44 w-44 m-auto object-cover md:h-full md:w-fit" src="static\assets\images\eyes.png" alt="Eye emoji">
+                                <img class="h-44 w-44 m-auto object-cover md:h-full md:w-fit" src="assets\images\eyes.png" alt="Eye emoji">
                             </div>
                             <div class="lg:p-8 md:p-2 sm:p-0 w-screen max-w-fit">
                                 <div class="uppercase tracking-wide text-sm text-yellow-500 font-semibold">All in one</div>
@@ -107,12 +107,12 @@ import { loop_guard } from "svelte/internal";
                 <section class="mt-24 wrapper ml-12">
                     <div class="container reveal">
                         <div class="sm:w-1/3 sm:mt-24 sm:left lg:left">
-                            <img class="top-12 md:max-w-full justify-center ml-6 md:mx-auto mb-0 bottom-0" src="static\assets\images\phones\detaljPhone.png" alt="Home page shown on a phone screen">
+                            <img class="top-12 md:max-w-full justify-center ml-6 md:mx-auto mb-0 bottom-0" src="assets\images\phones\detaljPhone.png" alt="Home page shown on a phone screen">
                         </div>
                         <div class="right mt-12 ml-12 mr-6 sm:m-0 sm:p-0 md:mx-auto md:mt-8 lg:mt-36 max-w-fit md:max-w-full bg-white rounded-xl shadow-md overflow-hidden">
                             <div class="md:flex">
                             <div class="md:shrink-0">
-                                <img class="h-44 w-44 m-auto object-cover md:h-full md:w-fit" src="static\assets\images\nerd.png" alt="Nerd emoji">
+                                <img class="h-44 w-44 m-auto object-cover md:h-full md:w-fit" src="assets\images\nerd.png" alt="Nerd emoji">
                             </div>
                             <div class="lg:p-8 md:p-2 sm:p-0 w-screen max-w-fit">
                                 <div class="uppercase tracking-wide text-sm text-yellow-500 font-semibold">Detailed</div>
@@ -132,12 +132,12 @@ import { loop_guard } from "svelte/internal";
                 <section class="mt-24 wrapper ml-12">
                     <div class="container reveal">
                         <div class="sm:w-1/3 sm:mt-12 sm:left lg:left">
-                            <img class="top-12 md:max-w-full justify-center ml-6 md:mx-auto mb-0 bottom-0" src="static\assets\images\phones\skinTone.png" alt="Home page shown on a phone screen">
+                            <img class="top-12 md:max-w-full justify-center ml-6 md:mx-auto mb-0 bottom-0" src="assets\images\phones\skinTone.png" alt="Home page shown on a phone screen">
                         </div>
                         <div class="right mt-12 ml-12 mr-6 sm:m-0 sm:p-0 md:mx-auto md:mt-8 lg:mt-36 max-w-fit md:max-w-full bg-white rounded-xl shadow-md overflow-hidden">
                             <div class="md:flex">
                             <div class="md:shrink-0">
-                                <img class="h-44 w-44 m-auto object-cover md:h-full md:w-fit" src="static\assets\images\hudfargebilde.png" alt="Skin color emojies">
+                                <img class="h-44 w-44 m-auto object-cover md:h-full md:w-fit" src="assets\images\hudfargebilde.png" alt="Skin color emojies">
                             </div>
                             <div class="lg:p-8 md:p-2 sm:p-0 w-screen max-w-fit">
                                 <div class="uppercase tracking-wide text-sm text-yellow-500 font-semibold">Made for you</div>
@@ -157,12 +157,12 @@ import { loop_guard } from "svelte/internal";
                 <section class="mt-24 wrapper ml-12">
                     <div class="container reveal">
                         <div class="sm:w-1/3 sm:left lg:left">
-                            <img class="top-12 md:max-w-full justify-center ml-12 md:mx-auto mb-0 bottom-0" src="static\assets\images\phones\timerPhone.png" alt="Home page shown on a phone screen">
+                            <img class="top-12 md:max-w-full justify-center ml-12 md:mx-auto mb-0 bottom-0" src="assets\images\phones\timerPhone.png" alt="Home page shown on a phone screen">
                         </div>
                         <div class="right mt-12 ml-12 mr-6 sm:m-0 sm:p-0 md:mx-auto md:mt-8 lg:mt-36 max-w-fit md:max-w-full bg-white rounded-xl shadow-md overflow-hidden">
                             <div class="md:flex">
                             <div class="md:shrink-0">
-                                <img class="h-44 w-44 m-auto object-cover md:h-full md:w-fit" src="static\assets\images\clock.png" alt="Clock emoji">
+                                <img class="h-44 w-44 m-auto object-cover md:h-full md:w-fit" src="assets\images\clock.png" alt="Clock emoji">
                             </div>
                             <div class="lg:p-8 md:p-2 sm:p-0 w-screen max-w-fit">
                                 <div class="uppercase tracking-wide text-sm text-yellow-500 font-semibold">Countdown</div>
@@ -182,13 +182,13 @@ import { loop_guard } from "svelte/internal";
                 <section class="mt-24 wrapper ml-12">
                     <div class="container reveal">
                         <div class="sm:w-1/3 sm:left lg:left">
-                            <img class="top-12 md:max-w-full justify-center -ml-6 md:mx-auto mb-0 bottom-0" src="static\assets\applogo.png" alt="Home page shown on a phone screen">
+                            <img class="top-12 md:max-w-full justify-center -ml-6 md:mx-auto mb-0 bottom-0" src="assets\applogo.png" alt="Home page shown on a phone screen">
                         </div>
                         <div class="right mt-12 mr-12 mx-auto my-auto sm:m-0 sm:p-0 md:mx-auto md:mt-8 lg:mt-12 lg:mr-12 max-w-fit md:max-w-full bg-green-400 rounded-xl shadow-md overflow-hidden">
                             <div class="md:flex">
                             <div class="md:shrink-0">
-                                <a href="static\assets\downloads\solbrent.apk" download="Solbrent.apk" title="Download Solbrent Link">
-                                    <img class="h-44 w-44 object-cover md:h-full md:w-fit bg-white hover:bg-black transition-all ease-in hover:cursor-pointer" src="static\assets\images\android.png" alt="Clickable Android logo download button">
+                                <a href="assets\downloads\solbrent.apk" download="Solbrent.apk" title="Download Solbrent Link">
+                                    <img class="h-44 w-44 object-cover md:h-full md:w-fit bg-white hover:bg-black transition-all ease-in hover:cursor-pointer" src="assets\images\android.png" alt="Clickable Android logo download button">
                                 </a>
                             </div>
                             <div class="lg:p-8 md:p-2 sm:p-0 w-screen max-w-fit">
