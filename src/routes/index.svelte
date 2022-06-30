@@ -184,7 +184,7 @@ import { loop_guard } from "svelte/internal";
                         <div class="sm:w-1/3 sm:left lg:left">
                             <img class="top-12 md:max-w-full justify-center -ml-6 md:mx-auto mb-0 bottom-0" src="src\assets\applogo.png" alt="Home page shown on a phone screen">
                         </div>
-                        <div class="right mt-12 mx-auto my-auto sm:m-0 sm:p-0 md:mx-auto md:mt-8 lg:mt-12 lg:mr-12 max-w-fit md:max-w-full bg-green-400 rounded-xl shadow-md overflow-hidden">
+                        <div class="right mt-12 mr-12 mx-auto my-auto sm:m-0 sm:p-0 md:mx-auto md:mt-8 lg:mt-12 lg:mr-12 max-w-fit md:max-w-full bg-green-400 rounded-xl shadow-md overflow-hidden">
                             <div class="md:flex">
                             <div class="md:shrink-0">
                                 <a href="src\assets\downloads\solbrent.apk" download="Solbrent.apk" title="Download Solbrent Link">
@@ -246,7 +246,6 @@ import { loop_guard } from "svelte/internal";
         triggerElement: intro,
         triggerHook: 0
         })
-        .addIndicators()
         .setPin(intro)
         .addTo(controller);
 
@@ -272,7 +271,6 @@ import { loop_guard } from "svelte/internal";
 
         setInterval(() => {
         delay += (scrollpos - delay) * accelamount;
-        console.log(scrollpos, delay);
 
         video.currentTime = delay;
         }, 33.3);
