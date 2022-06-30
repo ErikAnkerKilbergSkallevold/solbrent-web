@@ -173,7 +173,7 @@
       }
 
       .gradient {
-        background-image: url("assets/images/gradient.png");
+        background-image: url("static/assets/images/gradient.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
